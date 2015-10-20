@@ -1,0 +1,10 @@
+#!/bin/bash
+
+./rf -t=d/chess/t -v=d/chess/v -trees=1 
+# don't segfault
+./rf -t=d/chess/t -v=d/chess/v -trees=1 -class=B
+./rf -t=d/chess/t -v=d/chess/v -trees=10 -class=B
+./rf -t=d/chess/t -v=d/chess/v -trees=100 -class=B
+./rf -t=d/chess/t -v=d/chess/v -trees=1 -class=W
+./rf -t=d/chess/t -v=d/chess/v -trees=10 -class=W
+./rf -t=d/chess/t -v=d/chess/v -trees=100 -class=W

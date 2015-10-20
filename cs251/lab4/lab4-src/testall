@@ -1,0 +1,65 @@
+#!/bin/sh
+
+echo
+echo ---------------- Testing All Dictionaries ------------
+echo
+
+grade1=0
+grade1max=22
+echo
+echo "---Array Dictionary---- ($grade1max pts)"
+./test-dict array test1&& grade1=`expr $grade1 "+" 3`
+./test-dict array test2&& grade1=`expr $grade1 "+" 3`
+./test-dict array test3&& grade1=`expr $grade1 "+" 4`
+./test-dict array test4&& grade1=`expr $grade1 "+" 4`
+./test-dict array test5&& grade1=`expr $grade1 "+" 4`
+./test-dict array test6&& grade1=`expr $grade1 "+" 4`
+
+grade2=0
+grade2max=22
+echo
+echo "---Binary Search Dictionary---- ($grade2max pts)"
+./test-dict bsearch test1&& grade2=`expr $grade2 "+" 3`
+./test-dict bsearch test2&& grade2=`expr $grade2 "+" 3`
+./test-dict bsearch test3&& grade2=`expr $grade2 "+" 4`
+./test-dict bsearch test4&& grade2=`expr $grade2 "+" 4`
+./test-dict bsearch test5&& grade2=`expr $grade2 "+" 4`
+./test-dict bsearch test6&& grade2=`expr $grade2 "+" 4`
+
+grade3=0
+grade3max=23
+echo
+echo "---Hash Dictionary---- ($grade3max pts)"
+./test-dict hash test1&& grade3=`expr $grade3 "+" 3`
+./test-dict hash test2&& grade3=`expr $grade3 "+" 4`
+./test-dict hash test3&& grade3=`expr $grade3 "+" 4`
+./test-dict hash test4&& grade3=`expr $grade3 "+" 4`
+./test-dict hash test5&& grade3=`expr $grade3 "+" 4`
+./test-dict hash test6&& grade3=`expr $grade3 "+" 4`
+
+grade4=0
+grade4max=33
+echo
+echo "---AVL Dictionary---- ($grade4max pts)"
+./test-dict avl test1&& grade4=`expr $grade4 "+" 3`
+./test-dict avl test2&& grade4=`expr $grade4 "+" 4`
+./test-dict avl test3&& grade4=`expr $grade4 "+" 4`
+./test-dict avl test4&& grade4=`expr $grade4 "+" 4`
+./test-dict avl test5&& grade4=`expr $grade4 "+" 4`
+./test-dict avl test6&& grade4=`expr $grade4 "+" 4`
+./test-avl && grade4=`expr $grade4 "+" 10`
+
+total=`expr $grade1 + $grade2 + $grade3 + $grade4`
+
+totalmax=`expr $grade1max + $grade2max + $grade3max + $grade4max`
+
+echo
+echo   "-------------------------------------------------"
+echo   "          Test of Data Structures Results"
+echo   "-------------------------------------------------"
+printf "Array Dictionary:          %-3d%s%-3d\n" $grade1 " of " $grade1max
+printf "Binary Search Dictionary:  %-3d%s%-3d\n" $grade2 " of " $grade2max
+printf "Hash Dictionary:           %-3d%s%-3d\n" $grade3 " of " $grade3max
+printf "AVL Dictionary:            %-3d%s%-3d\n" $grade4 " of " $grade4max
+echo   "--------------------------------------------------"
+printf "Total:                   %-3d%s%-3d\n" $total " of " $totalmax

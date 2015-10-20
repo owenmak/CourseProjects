@@ -1,0 +1,5 @@
+#!/bin/bash
+
+(wcVoid greetings.txt | sort> out1) && (wcVoidExample greetings.txt | sort> out2) && \
+		diff out1 out2
+

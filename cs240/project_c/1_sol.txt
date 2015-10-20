@@ -1,0 +1,7 @@
+double=22.50
+ double=13.50
+  string=rat
+   C:1
+   C:0
+  C:1
+ C:0

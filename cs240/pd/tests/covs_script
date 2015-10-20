@@ -1,0 +1,9 @@
+#!/bin/bash
+
+./rf -t=d/covs/t -v=d/covs/v -trees=1 
+# don't segfault
+./rf -t=d/covs/t -v=d/covs/v -trees=1 -class=2
+./rf -t=d/covs/t -v=d/covs/v -trees=1 -class=3
+./rf -t=d/covs/t -v=d/covs/v -trees=10 -class=3
+./rf -t=d/covs/t -v=d/covs/v -trees=100 -class=3
+

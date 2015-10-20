@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="requester_button" type="id"/>
+    <item name="locations_spinner" type="id" />
+    <item name="urgencies_spinner" type="id" />
+    <item name="requester_status_textview" type="id" />
+    <item name="volunteer_status_textview" type="id" />
+    <item name="volunteer_button" type="id" />
+</resources>

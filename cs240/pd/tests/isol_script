@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./rf -t=d/isol/t -v=d/isol/v -trees=1 
+# don't segfault
+./rf -t=d/isol/t -v=d/isol/v -trees=1 -class=5.

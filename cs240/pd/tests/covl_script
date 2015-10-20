@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./rf -t=d/covl/t -v=d/covl/v -trees=1
+#don't segfault
+./rf -t=d/covl/t -v=d/covl/v -trees=1 -class=3
+

@@ -1,0 +1,17 @@
+
+ge from the Leadership Team, Department of Computer Science  
+Greetings! On behalf of the faculty, staff, and students of the Department of Computer Science, we welcome you! These are exciting times for computer scientists as the discipline is now widely recognized as an essential source of tools and techniques for advancements in nearly all spheres of human endeavor.
+
+Formed in 1962, the department has gone through transformations led over the years by Sam Conte, Peter Denning, John Rice, Ahmed Sameh, and Susanne Hambrusch. These leaders, with support from faculty, staff, students, administrators, and our generous alumni and corporate partners, have built a strong foundation on which we are now ready to face the challenges ahead. The new Lawson Computer Science Building is a testimony to the successful efforts of many a group of forward looking people.
+
+Through excellence in research, teaching, and service our dedicated faculty has distinguished itself in the core areas of computer science and in many related multi-disciplinary areas. We continue to stress diversity in our hiring - and strongly support the creation of a diverse workforce through our student recruiting and retention programs.
+
+The future holds many challenges. The architecture of computers that we deal with everyday is changing: multi-core processors are here and are fast replacing the single-CPU/single-core desktop and laptop. Entertainment in the form of games, films, and music now relies heavily on high performance computing. Computer hardware and software pervades devices and equipment that we use everyday and has thus become the primary source of flexible and varied functionality - and hence a key driver of the global economy. Projects of national and global importance in science and engineering seek computer science as an essential means for advancement and service. Our faculty and staff work tirelessly to provide flexible, attractive, and relevant education at the undergraduate and graduate levels to generate the workforce capable of meeting these varied challenges.
+
+We welcome you to browse through the departmental web site. Whether you are a student, a parent, an alum, a corporate partner, or a colleague, we want to hear from you. Your comments and suggestions will help us move to the next level and provide us with encouragement to maintain excellence. 
+
+The leadership team:
+Aditya Mathur (apm@cs.purdue.edu), Head
+Mikhail Atallah (mja@cs.purdue.edu), Associate Head
+Tim Korb (jtk@cs.purdue.edu), Assistant Head 
+

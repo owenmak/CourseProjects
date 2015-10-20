@@ -1,0 +1,3 @@
+public class IllegalAnimalException extends Exception {
+    //TODO add the constructor
+}

@@ -1,0 +1,7 @@
+
+public class Bear extends Animal{
+
+	@Override public void makeMove(SiteGrid sg) {
+		
+	}
+}

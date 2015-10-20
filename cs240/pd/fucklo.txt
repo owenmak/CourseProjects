@@ -1,0 +1,8 @@
+string,double,class
+cat,15,a
+dog,50,c
+person,30,e
+emu,12,z
+rat,12,d
+orange,12,f
+plug,15,g

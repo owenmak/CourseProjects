@@ -1,0 +1,51 @@
+Name, Occupation, Zip, Business, Amount, Time
+Mica Kegley, geologist, 60451, "Hilton Phoenix East", 568.51, 2014-03-11 03:46:32
+Lan Vuong, singer, 42745, "Baja Fresh Mexican Grill", 421.77, 2014-03-15 15:31:41
+Maile Jeffrey, lawyer, 02360, "Chili's Grill  Bar", 370.51, 2014-02-20 18:00:38
+Moriah Benham, printer, 09586, "Endurance Rehabilitation", 440.4, 2014-02-22 17:46:36
+Liana Inabinet, decorator, 57379, "Goodwill of Central Arizona", 70.34, 2014-03-01 13:04:11
+Mireille Inouye, singer, 32887, "Orange Salon", 84.65, 2014-03-26 17:02:55
+Cleveland Kohl, accountant, 36473, "Zuma Grill", 710.75, 2014-02-13 01:52:59
+Geneva Carta, printer, 82734, "Extreme Pita", 71.69, 2014-03-23 12:51:36
+Annita Riley, cook, 98797, "Cvs Pharmacy", 933.74, 2014-01-24 07:07:55
+Maggie Benham, tailor, 27449, "Fatburger", 192.51, 2014-03-21 21:49:20
+Thora Lineberger, plumber, 61576, "Fresh  Easy Neighborhood Market", 76.47, 2014-03-28 14:27:11
+Sun Donato, TA, 30498, "Altered Tails", 63.61, 2014-01-06 20:10:45
+Maryam Horst, designer, 90617, "Jiffy Lube", 970.24, 2014-02-02 00:09:44
+Kandice Hinnenkamp, musician, 29195, "Longhorn Steakhouse Mesa", 428.72, 2014-03-21 02:00:42
+Athena Alexis, receptionist, 16074, "Carl's Jr", 257.6, 2014-03-04 15:08:55
+Yoshie Mundy, juggler, 44508, "Cantina Laredo", 918.96, 2014-03-27 17:46:30
+Ressie Lombard, magician, 36635, "Paradise Bakery", 697.29, 2014-02-17 11:49:20
+Ty Luciani, dentist, 52401, "Four Peaks Brewing Co", 46.2, 2014-03-08 19:18:32
+Ashli Mishler, chef, 03845, "Taco Feliz Mexican Food", 58.15, 2014-01-04 08:14:24
+Annita Mayoral, politician, 98133, "Orange Leaf Frozen Yogurt", 283.25, 2014-03-12 20:41:27
+Fredricka Cedillo, scientist, 31492, "Great Clips For Hair", 402.14, 2014-01-08 22:51:47
+Athena Leavy, salesperson, 98452, "Kachina Dry Cleaners", 310.84, 2014-03-08 01:24:52
+Cornell Gushiken, designer, 39621, "Cask ", 898.83, 2014-03-14 10:01:55
+Rosita Jeppson, optician, 54837, "Fletcher's Tire  Auto Service", 577.11, 2014-02-11 03:15:50
+Julee Duley, soldier, 40495, "The Corn Flower", 252.85, 2014-03-10 15:12:41
+Leone Mayoral, scientist, 93412, "McGrath's Fish House", 844.14, 2014-01-11 16:15:33
+Giovanni Cavanagh, journalist, 46692, "Camelback Inn A JW Marriott Resort  Spa Scottsdale", 983.33, 2014-01-01 01:58:16
+Ressie Inabinet, judge, 95092, "Paytons Place", 412.54, 2014-01-11 09:03:59
+Jacob Holly, student, 55824, "Leyvas Towing and Auto Repair", 309.45, 2014-03-27 10:14:52
+Cornell Swindell, executive, 45727, "Gigi's Cupcakes", 742.94, 2014-03-28 14:45:25
+Lan Inouye, photographer, 24193, "United Brokers Group", 194.8, 2014-01-21 06:21:45
+Sun Mayoral, director, 08139, "Cabin Coffee Cafe", 881.64, 2014-01-28 16:22:20
+Le Herter, salesperson, 78735, "Wok In", 268.22, 2014-03-15 05:00:53
+Renetta Carta, pilot, 56626, "Spitfire Grill  Tavern", 101.18, 2014-02-19 04:35:51
+Cinderella Catanzaro, geologist, 89123, "Performance Bicycle", 875.38, 2014-01-03 23:40:34
+Giovanni Mishler, scientist, 92180, "Perc Up Coffee Cafe", 667.18, 2014-01-01 19:11:50
+Jacob Cason, photographer, 70104, "TEXAZ Grill", 790.03, 2014-03-28 19:30:14
+Jani Pack, singer, 16513, "Fitness ", 108.99, 2014-01-13 06:14:05
+Mariah Yokum, miner, 80412, "Brand X Custom TShirts", 769.73, 2014-02-17 14:22:14
+Veta Slone, magician, 38261, "Stuff Antiques", 757.9, 2014-01-26 10:34:51
+Chanelle Matamoros, hairdresser, 67983, "Palatte", 805.58, 2014-01-15 09:52:13
+Geneva Swindell, journalist, 40637, "Mickey's Hangover", 539.88, 2014-03-04 05:41:41
+Irwin Hossain, lexicographer, 46763, "Nello's Pizza", 983.42, 2014-01-02 00:30:14
+Mireya Behler, actor, 95879, "Golden Corral", 367.68, 2014-01-19 08:10:22
+Olga Boudreau, salesperson, 30785, "Jamaca Me Tan", 310.7, 2014-03-18 14:32:50
+Mariah Vandeventer, designer, 49294, "Fry's Marketplace", 793.69, 2014-03-24 00:15:04
+Laraine Walburn, receptionist, 62190, "The House at Secret Garden", 269.38, 2014-03-12 07:48:34
+Irwin Shipley, nurse, 56853, "Palace Nails and Spa", 211.83, 2014-01-28 09:30:11
+Ressie Riese, farmer, 96653, "Bread Basket", 669.07, 2014-02-18 04:27:26
+Ty Jeanpierre, porter, 62345, "Supercuts", 959.81, 2014-02-02 13:33:02

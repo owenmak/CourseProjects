@@ -1,0 +1,11 @@
+
+public class Bear extends Animal{
+	
+	public Bear(String status) {
+		super(status);
+	}
+
+	@Override public void makeMove(SiteGrid sg) {
+		
+	}
+}

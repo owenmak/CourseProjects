@@ -1,0 +1,60 @@
+#!/bin/bash
+
+testNumber=0
+total=0
+totalmax=0
+rm -f results.txt
+
+testThis() {
+    testNumber=`expr $testNumber + 1`;
+    maxPoints=$2;
+    command=$1;
+    echo "------ $command ------- ($maxPoints pts)"
+    points=0;
+    $command;
+    if [ $? -eq 0 ]; then
+	echo Test Passed...
+	points=$maxPoints;
+    else
+	echo Test Failed...;
+    fi;
+    totalmax=`expr $totalmax + $maxPoints`;
+    total=`expr $total + $points`;
+    echo "$command": $points of $maxPoints >> results.txt
+
+}
+
+testThis "./TestMyString test1         " 3
+testThis "./TestMyString test2         " 3
+testThis "./TestMyString test3         " 3
+testThis "./TestMyString test4         " 3
+testThis "./TestMyString test5         " 3
+testThis "./TestMyString test6         " 3
+testThis "./TestMyString test7         " 3
+testThis "./TestMyString test8         " 3
+testThis "./TestMyString test9         " 3
+testThis "./TestMyString test10        " 3
+testThis "./TestMyString test11        " 3
+testThis "./HashTableVoidTest test1    " 4
+testThis "./HashTableVoidTest test2    " 4
+testThis "./HashTableVoidTest test3    " 4
+testThis "./HashTableVoidTest test4    " 5
+testThis "./HashTableVoidTest test5    " 5
+testThis "./HashTableVoidTest test6    " 5
+testThis "./HashTableTemplateTest test1" 5
+testThis "./HashTableTemplateTest test2" 5
+testThis "./HashTableTemplateTest test3" 5
+testThis "./HashTableTemplateTest test4" 5
+testThis "./HashTableTemplateTest test5" 5
+testThis "./HashTableTemplateTest test6" 5
+testThis "./testWcVoid                 " 5
+testThis "./testWcTemplate             " 5
+
+
+echo   "-------------------------------------------------"
+echo   "Student:" $PWD
+echo   "-------------------------------------------------"
+cat results.txt
+echo   "--------------------------------------------------"
+echo "Total:               " $total "of" $totalmax
+echo

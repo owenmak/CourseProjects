@@ -1,0 +1,11 @@
+temperature=mild
+ outlook=sunny
+  C:0
+  C:1
+ wind=true
+  C:0
+  outlook=overcast
+   humidity=normal
+    C:0
+    C:1
+   C:1

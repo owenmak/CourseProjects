@@ -1,0 +1,8 @@
+
+public class Bird extends Animal {
+
+	public Bird(String status) {
+		super(status);
+	}
+
+}

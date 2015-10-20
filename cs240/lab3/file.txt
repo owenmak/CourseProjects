@@ -1,0 +1,3 @@
+.String from reader.c :hello Yeah
+EString from reader.c :ohmyO
+E.......

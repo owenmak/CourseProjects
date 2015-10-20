@@ -1,0 +1,73 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Stack;
+import java.util.Scanner;
+import java.util.HashMap;;
+
+public class Lab13 {
+
+	/**
+	 * A method that takes in a string "message" and returns a string that has
+	 * all of the words of the input string in reverse order. Use a stack to
+	 * accomplish this.
+	 * 
+	 * @param message
+	 *            - the input string
+	 * @return result
+	 */
+	public static String printBack(String message) {
+		String msg;
+		Stack<String> s = new Stack<String>();
+		String[] fields= message.split(" ");
+		msg = "";
+		for(int i = 0; i < fields.length; i++) {
+			s.add(fields[i]);
+		}
+		for(int j = 0; j < s.size(); j++)
+			msg += s.pop();
+		return message;
+
+	}
+	
+	/**
+	 * A method that takes in a file written in a specific format: ... 
+	 * 1 James Grant Temes Warshaw Weber vs. Schnabel Mcnair Cosgrove Braun Crouse
+	 * 0 Temes Huttner Degger Seber Lane vs. Mcnair Weber Schnabel Oleson Sanford
+	 * ... 
+	 * Your method will take in this file, and output the player (last name)
+	 * with the most wins according to the file. A preceding 1 means the team
+	 * before the "vs." won, and a 0 means the team before the "vs." lost.
+	 * 
+	 * Use a hashmap to accomplish this.
+	 * 
+	 * @param message
+	 * @return result
+	 */
+	public static String compete(File tweets) throws FileNotFoundException {
+
+		return null; // You should replace null with your String containing the
+						// winner
+	}
+	
+	
+	// use this method to print out a map to debug your code
+	public static void printMap(Map<String, Integer> m) {
+		for (String s : m.keySet()) {
+			System.out.println(s + ": " + m.get(s));
+		}
+	}
+
+	public static void main(String[] args) throws FileNotFoundException {
+		String reverseSent = printBack("Hello World! Look how far we've come!");
+		// It should print: come weve far how Look World Hello
+		System.out.println("Output of printBack() is : " + reverseSent);
+		
+		File tweets = new File("lab13test");
+		String winner = compete(tweets);
+		System.out.println("Winner is: " + winner);
+	}
+	 
+
+}

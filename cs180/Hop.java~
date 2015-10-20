@@ -1,0 +1,17 @@
+public class Hop {
+  Hop() {
+    System.out.println(?Hop?);
+}
+}
+public class Skip implements Hop {
+  Skip() {
+    System.out.println(?Skip?);
+}
+}
+public class Jump implements Skip {
+  Jump() {
+    System.out.println(?Jump?);
+}
+  public static void main(String args) {
+    jump j = new jump();
+  }

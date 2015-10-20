@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+./rf -t=d/cars/t -v=d/cars/v -trees=100
+# don't segfault
+./rf -t=d/cars/t -v=d/cars/v -trees=100 -class=12

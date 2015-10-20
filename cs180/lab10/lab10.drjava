@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20120818-r5686">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="ConcurrentGradingQueue.java" package="" timestamp="30-Oct-2013 12:32:23">
+        <select from="903" to="903"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="SequentialGradingQueue.java" package="" timestamp="30-Oct-2013 11:44:48">
+        <select from="903" to="903"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="ConcurrentGradingJob.java" package="" timestamp="30-Oct-2013 12:19:16">
+        <select from="903" to="903"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Grader.java" package="" timestamp="30-Oct-2013 12:31:11">
+        <select from="903" to="903"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="Wet-CAB-API.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

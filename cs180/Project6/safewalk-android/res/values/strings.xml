@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Purdue SafeWalk System</string>
+    <string name="action_settings">Settings</string>
+    <string name="requester_button">Submit Request</string>
+    <string name="volunteer_button">Press When Ready</string>
+    <string name="location">Select your current location:</string>
+    <string name="urgency">Specify your urgency:</string>
+    
+    <string-array name="locations">
+        <item>CL50 - Class of 1950 Lecture Hall</item>
+        <item>EE - Electrical Engineering Building</item>
+        <item>LWSN - Lawson Computer Science Building</item>
+        <item>PMU - Purdue Memorial Union</item>
+        <item>PUSH - Purdue University Student Health Center</item>
+    </string-array>
+    
+    <string-array name="urgencies">
+        <item>Normal</item>
+        <item>Urgent</item>
+        <item>Emergency</item>
+    </string-array>
+</resources>

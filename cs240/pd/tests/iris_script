@@ -1,0 +1,9 @@
+#!/bin/bash
+
+./rf -t=d/iris/t -v=d/iris/v -trees=1 
+# don't segfault
+./rf -t=d/iris/t -v=d/iris/v -trees=1 -class=Iris-versicolor
+./rf -t=d/iris/t -v=d/iris/v -trees=10 -class=Iris-versicolor
+./rf -t=d/iris/t -v=d/iris/v -trees=100 -class=Iris-versicolor
+./rf -t=d/iris/t -v=d/iris/v -trees=1000 -class=Iris-versicolor
+

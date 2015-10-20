@@ -1,0 +1,19 @@
+simplecalc
+
+An infix calculator demo for Lex and Yacc
+Created for Purdue CS252 Spring 2014 by Evan Hanau. 
+Send questions to ehanau (at) purdue.edu
+
+Usage: 
+
+Type "calc".
+
+Then type expressions into the calculator using the *, +, -, and / operators.
+Simplecalc recognizes the ( ) enclosures and will assume that a number
+adjacent to a parenthesis implies multiplication.
+
+Limitations:
+
+- Only *,/,+ and - operations supported.
+- Floating-point only with no rounding.
+- Syntax errors will cause the application to quit.

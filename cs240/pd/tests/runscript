@@ -1,0 +1,13 @@
+#!/bin/bash
+
+./chess_script
+
+./cars_script
+
+./covs_script
+
+./covl_script
+
+./iris_script
+
+./isol_script
